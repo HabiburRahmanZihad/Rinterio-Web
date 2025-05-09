@@ -28,10 +28,10 @@
     </style>
 </head>
 
-<body class="manrope container mx-auto px-4 sm:px-6 lg:px-8">
+<body class="manrope container mx-auto px-1">
 
     <!-- Header section -->
-    <header class="bg-base-200">
+    <header class="bg-base-100">
 
         <!-- Nav bar section -->
         <nav class="py-4">
@@ -39,11 +39,8 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+                            <i class="fa-solid fa-bars-staggered"></i>
+
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-4 w-52 p-2 shadow">
@@ -55,9 +52,12 @@
                             <li><a>Book Consultant</a></li>
                         </ul>
                     </div>
+
                     <div class="btn btn-ghost text-[32px] font-extrabold">
-                        <span class="bg-[#ABEF5F] rounded-full px-3 py-1 text-[14px]"><i
-                                class="fa-solid fa-arrow-right -rotate-45"></i></span>Rinterio
+                        <span class="bg-[#ABEF5F] rounded-full px-3 py-1 text-[14px]">
+                            <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+                        </span>
+                        Rinterio
                     </div>
                 </div>
 
@@ -89,9 +89,9 @@
                         </svg>
                     </div>
 
-                    <div class="btn bg-[#94db42] text-white text-[20px] font-extrabold px-5">Book Consult
+                    <div class="btn bg-[#94db42]  text-[20px] font-extrabold px-5 rounded-3xl">Book Consult
                         <span class="bg-black rounded-full px-2 py-1 text-[14px]">
-                            <i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+                            <i class="fa-solid fa-arrow-right text-white -rotate-45"></i></span>
                     </div>
                 </div>
 
@@ -111,15 +111,87 @@
                 wood, sleek metal accents, and large windows that flood the space with natural light. </p>
 
             <div class="btn bg-[#94db42] text-black text-[20px] font-extrabold px-6  rounded-3xl">View Details
-                <span class="bg-[#d4ffa2da] rounded-full px-2 py-1  ">
+                <span class="bg-[#d4ffa2da] rounded-full px-2 py-2  ">
                     <i class="fa-solid fa-arrow-right -rotate-45"></i></span>
             </div>
+
         </div>
     </header>
 
 
     <!-- Main section -->
-    <main></main>
+    <main class="bg-base-300">
+        <!-- We design thoughtful, liveable spaces Section -->
+        <section
+            class="mb-20 flex flex-col-reverse justify-around items-center lg:flex-row  py-20 px-5 md:px-10 md:gap-10">
+
+            <div class="max-w-[600px] space-y-5">
+                <img src="./assets/Vector.png" alt="">
+
+                <div class="bg-white w-32 rounded-full">
+                    <p class="px-4 py-2 text-[#494949] font-semibold"> <i class="fa-solid fa-arrow-right"></i> About Us
+                    </p>
+                </div>
+
+                <h1 class="text-[#212121] font-extrabold text-[32px] md:text-[40px] ">We design thoughtful, liveable
+                    spaces</h1>
+                <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                <div class="p-3 md:p-6 flex justify-between items-center gap-5  bg-white rounded-3xl">
+                    <img src="./assets/commercial.png" alt="">
+                    <div>
+                        <h1 class="text-[#494949] font-extrabold text-[20px]">Commercial</h1>
+                        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p-3 md:p-6 flex justify-between items-center gap-5 bg-white rounded-3xl">
+                    <img src="./assets/residential.png" alt="">
+                    <div>
+                        <h1 class="text-[#494949] font-extrabold text-[20px]">Residential</h1>
+                        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-full" src="./assets/Rectangle.png" alt="">
+            </div>
+        </section>
+
+        <!-- Review Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-20 p-8 bg-white rounded-3xl space-y-4">
+            <!-- Card 1  -->
+            <div class="flex flex-col justify-center items-center space-y-5">
+                <i class="fa-regular fa-circle-question text-[40px]"></i>
+                <h1 class="text-[#494949] font-extrabold text-[32px]">235+</h1>
+                <p class="text-[#737373]">Happy Client Review</p>
+            </div>
+            <!-- Card 2  -->
+            <div class="flex flex-col justify-center items-center space-y-5">
+                <i class="fa-solid fa-house text-[40px]"></i>
+                <h1 class="text-[#494949] font-extrabold text-[32px]">50+</h1>
+                <p class="text-[#737373]">Work Departments</p>
+            </div>
+            <!-- Card 3  -->
+            <div class="flex flex-col justify-center items-center space-y-5">
+                <i class="fa-solid fa-user text-[40px]"></i>
+                <h1 class="text-[#494949] font-extrabold text-[32px]">30k+</h1>
+                <p class="text-[#737373]">Our Happy Client</p>
+            </div>
+            <!-- Card 4  -->
+            <div class="flex flex-col justify-center items-center space-y-5">
+                <i class="fa-solid fa-users text-[40px]"></i>
+                <h1 class="text-[#494949] font-extrabold text-[32px]">307+</h1>
+                <p class="text-[#737373]">Staff Members</p>
+            </div>
+        </section>
+
+    </main>
 
 
 
